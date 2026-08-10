@@ -1,0 +1,7 @@
+# 发布物只作为 Release 资产上传，绝不进 git
+# （单个文件 46-66MB，GitHub 对 >50MB 会告警、>100MB 直接拒绝；
+#   而且二进制进 git 后仓库体积再也降不下来）
+assets/
+*.exe
+*.zip
+*.msix

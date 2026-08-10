@@ -1,0 +1,32 @@
+name: 功能建议 / Feature request
+description: 希望增加或改进什么
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        比起"加一个 X 功能"，更有用的是**你原本想完成什么、卡在哪里**——
+        同一个目标常常有比你我第一反应更好的解法。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想完成什么？现在卡在哪？
+      placeholder: 例如：我想把手机导出的几万张照片按年份整理，但现在只能一个个看日期……
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你设想的做法（可选）
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 现在你是怎么绕过去的
+      description: 用了别的软件？手工做？还是干脆放弃了？这能说明这件事有多重要。
+    validations:
+      required: false

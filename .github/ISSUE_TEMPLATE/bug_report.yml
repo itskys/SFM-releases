@@ -1,0 +1,75 @@
+name: 报告一个问题 / Bug report
+description: 崩溃、报错、结果不对、界面异常
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢反馈。**复现步骤**和**Windows 版本**这两项最有用——有它们通常能省掉好几轮来回。
+
+        涉及具体文件时，路径里的私密部分可以打码，能说清"哪一类文件"就够了。
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么
+      description: 你看到的实际结果。有截图或错误文字请一并贴上。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望是什么样
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开 …
+        2. 点击 …
+        3. 出现 …
+      description: 如果只是偶尔出现，也请说明——"偶发"本身就是重要线索。
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: SFM 版本
+      description: 见「帮助 → 关于」，或你下载的文件名里的版本号
+      placeholder: "0.7.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: package
+    attributes:
+      label: 你装的是哪个包
+      options:
+        - 安装版 setup.exe
+        - 便携版 portable.zip
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      description: 按 Win+R 输入 winver 即可看到
+      placeholder: "Windows 11 24H2 (build 26100)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 其它可能相关的情况
+      description: |
+        例如：文件在网络盘 / 移动硬盘 / 加密卷上；装了 Everything；开了全局内容检索；
+        杀毒软件报过警；操作的文件特别大或特别多。
+    validations:
+      required: false

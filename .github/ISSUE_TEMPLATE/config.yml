@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 提问 / 闲聊 / 想到什么说什么
+    url: https://github.com/itskys/SFM-releases/discussions
+    about: 不确定算不算 bug、用起来别扭、想问点什么——都可以来 Discussions
