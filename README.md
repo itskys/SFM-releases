@@ -22,15 +22,20 @@
 
 ---
 
-## 下载
+## 下载 v0.7.0
 
-前往 **[Releases 页面](../../releases/latest)** 下载：
+**直接下载**（点了就开始下）：
 
-| 文件 | 说明 |
-|---|---|
-| `SuperFilesManager-<版本>-setup.exe` | **安装版**。每用户安装，**不需要管理员权限**；有开始菜单项与正常的卸载入口 |
-| `SuperFilesManager-<版本>-portable.zip` | **便携版**。解压即用，不写注册表；想随时删干净就用这个 |
-| `SHA256SUMS` | 校验和，用途见下 |
+### ⬇ [安装版 SuperFilesManager-0.7.0-setup.exe](https://github.com/itskys/SFM-releases/releases/download/v0.7.0/SuperFilesManager-0.7.0-setup.exe) （46 MB）
+
+每用户安装，**不需要管理员权限**；有开始菜单项与正常的卸载入口。大多数人选这个。
+
+### ⬇ [便携版 SuperFilesManager-0.7.0-portable.zip](https://github.com/itskys/SFM-releases/releases/download/v0.7.0/SuperFilesManager-0.7.0-portable.zip) （65 MB）
+
+解压即用，不写注册表；想随时删干净就用这个。
+
+校验和：[SHA256SUMS](https://github.com/itskys/SFM-releases/releases/download/v0.7.0/SHA256SUMS)　·　
+全部版本见 [Releases 页面](https://github.com/itskys/SFM-releases/releases)
 
 **系统要求**：Windows 10 1809（build 17763）或更高的 64 位系统。
 低于这个版本装不上——程序依赖的几个系统接口（回收站删除、缩略图、文件属性、媒体预览）
