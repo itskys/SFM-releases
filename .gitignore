@@ -5,3 +5,8 @@ assets/
 *.exe
 *.zip
 *.msix
+
+# 每次发版的暂存产物：从主仓取回的校验和（去掉不随 Release 分发的 msix 那行）、
+# 以及发布说明的草稿。二者的正式副本都在 GitHub Release 上，仓库里留着只会随版本堆积。
+SHA256SUMS
+notes_*.md
