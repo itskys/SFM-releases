@@ -28,11 +28,17 @@
 
 ### ⬇ [安装版 SuperFilesManager-0.7.0-setup.exe](https://github.com/itskys/SFM-releases/releases/download/v0.7.0/SuperFilesManager-0.7.0-setup.exe) （46 MB）
 
-每用户安装，**不需要管理员权限**；有开始菜单项与正常的卸载入口。大多数人选这个。
+启动时可选「为所有用户安装」（需要管理员）或「只为我安装」（不需要）；有开始菜单项与正常的卸载入口。
+大多数人选这个。
 
 ### ⬇ [便携版 SuperFilesManager-0.7.0-portable.zip](https://github.com/itskys/SFM-releases/releases/download/v0.7.0/SuperFilesManager-0.7.0-portable.zip) （65 MB）
 
-解压即用，不写注册表；想随时删干净就用这个。
+解压即用，不写注册表。
+
+⚠ **两个版本都会在这两个目录下存数据**，删掉程序目录不会连它们一起删：
+`%APPDATA%\SFM`（设置、密码库、隔离区里的文件副本）与 `%LOCALAPPDATA%\SFM`（内容索引、日志）。
+内容索引可能有几十 GB。要彻底清干净，请一并删掉这两个目录；安装版卸载时会问你一句要不要
+连同设置和内容索引一起删（**默认保留**——万一你只是重装，删掉就意味着重扫全盘）。
 
 校验和：[SHA256SUMS](https://github.com/itskys/SFM-releases/releases/download/v0.7.0/SHA256SUMS)　·　
 全部版本见 [Releases 页面](https://github.com/itskys/SFM-releases/releases)
